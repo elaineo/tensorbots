@@ -9,9 +9,9 @@ Their instructions didn't work as of 14-Nov 2015.
 
 <b>The following instructions are for Mac OS X. </b>
 
-'''
+```
 $ git clone --recurse-submodules https://github.com/tensorflow/tensorflow
-'''
+```
 
 [Install XCode 6.1 or later.](https://developer.apple.com/xcode/downloads/)<br>
 [Install JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
@@ -20,8 +20,8 @@ Download the Bazel installer script: [bazel-0.1.1-installer-darwin-x86_64.sh ](h
 
 
 Run it:
-'''
+```
 $ chmod +x bazel-0.1.1-installer-darwin-x86_64.sh
 $ ./bazel-0.1.1-installer-darwin-x86_64.sh --user
-'''
+```
 
