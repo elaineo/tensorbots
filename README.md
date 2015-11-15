@@ -16,7 +16,7 @@ Prerequisites:
 
 ### Download the Bazel installer script
 
-Download [bazel-0.1.1-installer-darwin-x86_64.sh](https://github.com/bazelbuild/bazel/releases/download/0.1.1/bazel-0.1.1-installer-darwin-x86_64.sh)
+Download [bazel-0.1.1-installer-darwin-x86_64.sh](https://github.com/bazelbuild/bazel/releases)
 
 Run it:
 ```
@@ -34,13 +34,13 @@ Also add that line to ~/.bash_profile
 
 Download pcre-8.37.tar.gz here:
 ```
-ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.37.tar.gz
+ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/
 ```
 Run, install.
 
 ### Download SWIG
 
-Download [swig-3.0.7.tar.gz](http://prdownloads.sourceforge.net/swig/swig-3.0.7.tar.gz)
+Download [swig-3.0.7.tar.gz](http://sourceforge.net/projects/swig/files/swig/swig-3.0.7/)
 
 In the same directory, run the following commands:
 
