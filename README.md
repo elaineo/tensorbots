@@ -4,7 +4,7 @@ Don't use the binary package; it's behind the source and lacks the functionality
 
 ## Install from Source
 
-This is a modified version of the instructions from https://github.com/tensorflow/tensorflow
+This is a modified version of the instructions from https://github.com/tensorflow/tensorflow<br>
 Their instructions were incomplete as of 14-Nov 2015.
 
 ### The following instructions are for Mac OS X.
@@ -28,12 +28,14 @@ Add Bazel to $PATH:
 ```
 $ export PATH="$PATH:$HOME/bin"
 ```
-Also add that to ~/.bash_profile
+Also add that line to ~/.bash_profile
 
 ### Download PCRE
 
-Download [pcre-8.37.tar.gz](ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.37.tar.gz)
-
+Download pcre-8.37.tar.gz here:
+```
+ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.37.tar.gz
+```
 Run, install.
 
 ### Download SWIG
