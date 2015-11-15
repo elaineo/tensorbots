@@ -9,16 +9,14 @@ Their instructions were incomplete as of 14-Nov 2015.
 
 ### The following instructions are for Mac OS X.
 
-```
-$ git clone --recurse-submodules https://github.com/tensorflow/tensorflow
-```
+Prerequisites:
 
 [Install XCode 6.1 or later.](https://developer.apple.com/xcode/downloads/)<br>
 [Install JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ### Download the Bazel installer script
 
-[bazel-0.1.1-installer-darwin-x86_64.sh ](https://github.com/bazelbuild/bazel/releases/download/0.1.1/bazel-0.1.1-installer-darwin-x86_64.sh)
+Download [bazel-0.1.1-installer-darwin-x86_64.sh](https://github.com/bazelbuild/bazel/releases/download/0.1.1/bazel-0.1.1-installer-darwin-x86_64.sh)
 
 Run it:
 ```
@@ -34,13 +32,13 @@ Also add that to ~/.bash_profile
 
 ### Download PCRE
 
-[pcre-8.37.tar.gz](ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.37.tar.gz)
+Download [pcre-8.37.tar.gz](ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.37.tar.gz)
 
 Run, install.
 
 ### Download SWIG
 
-[swig-3.0.7.tar.gz](http://prdownloads.sourceforge.net/swig/swig-3.0.7.tar.gz)
+Download [swig-3.0.7.tar.gz](http://prdownloads.sourceforge.net/swig/swig-3.0.7.tar.gz)
 
 In the same directory, run the following commands:
 
@@ -62,6 +60,11 @@ $ make -k check
 $ pip install numpy
 ```
 Get [Anaconda](https://www.continuum.io/downloads) if numpy doesn't work.
+
+### Get the tensorflow source
+```
+$ git clone --recurse-submodules https://github.com/tensorflow/tensorflow
+```
 
 ### Create the pip package and install
 
