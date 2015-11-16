@@ -5,7 +5,7 @@ Don't use the binary package; it's behind the source and lacks the functionality
 ## Install from Source
 
 This is a modified version of the instructions from https://github.com/tensorflow/tensorflow<br>
-Their instructions were incomplete as of 14-Nov 2015.
+This is what worked for me as of 14-Nov 2015.
 
 ### The following instructions are for Mac OS X.
 
