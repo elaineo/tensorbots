@@ -78,11 +78,10 @@ $ bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 $ pip install /tmp/tensorflow_pkg/tensorflow-0.5.0-py2-none-any.whl
 ```
 
-### Build the models
-
-```
-$ cd tensorflow/tensorflow/models
-$ bazel build 
-```
-
 Okay, finally done!
+
+### Run the models
+
+```
+$ bazel-bin/tensorflow/models/embedding/word2vec  --train_data=../trump.txt  --eval_data=../questions-words.txt   --save_path=/tmp/ --interactive=True
+```
